@@ -1,0 +1,31 @@
+{
+  "name": "restfulapi",
+  "version": "1.0.0",
+  "description": "Restful API - NodeJs & MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "NodeJs",
+    "MongoDB",
+    "Restful",
+    "API"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GM-WEBDESIGN/restFullAPI.git"
+  },
+  "author": "Germain Michaud <gmichaud.pro@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
